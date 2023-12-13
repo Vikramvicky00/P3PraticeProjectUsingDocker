@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  p3praticeprojectusingdocker:
+    image: ${DOCKER_REGISTRY-}p3praticeprojectusingdocker
+    build:
+      context: .
+      dockerfile: P3PraticeProjectUsingDocker/Dockerfile
